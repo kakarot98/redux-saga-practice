@@ -1,7 +1,7 @@
 import axios from "axios";
 
 export function requestGetUser() {
-  return axios.reques({
+  return axios.request({
     method: "get",
     url: "https://fakestoreapi.com/users/1"
   });
